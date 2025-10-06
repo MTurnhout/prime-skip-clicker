@@ -1,10 +1,19 @@
 {
   "manifest_version": 2,
   "name": "Prime Skip Clicker",
-  "version": "1.0",
-  "description": "Click skip buttons on Prime Video.",
+  "version": "1.1",
+  "description": "Automatically clicks skip buttons on Prime Video.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{c761e361-8c92-4959-8f9d-7cc1f9c2e488}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/border-48.png",
+    "96": "icons/border-96.png"
   },
   "content_scripts": [
     {
