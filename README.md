@@ -1,6 +1,6 @@
 # Prime Skip Clicker
 
-Automatically clicks skip and next episode buttons on Prime Video.
+Automatically clicks skip recap/intro and next episode buttons on Prime Video.
 
 # Links
 

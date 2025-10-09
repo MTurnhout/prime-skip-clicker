@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Prime Skip Clicker",
   "version": "1.2",
-  "description": "Automatically clicks skip and next episode buttons on Prime Video.",
+  "description": "Automatically clicks skip recap/intro and next episode buttons on Prime Video.",
   "icons": {
     "48": "icons/border-48.png",
     "96": "icons/border-96.png"
