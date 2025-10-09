@@ -1,16 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Prime Skip Clicker",
-  "version": "1.1",
-  "description": "Automatically clicks skip buttons on Prime Video.",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "{c761e361-8c92-4959-8f9d-7cc1f9c2e488}",
-      "data_collection_permissions": {
-        "required": ["none"]
-      }
-    }
-  },
+  "version": "1.2",
+  "description": "Automatically clicks skip and next episode buttons on Prime Video.",
   "icons": {
     "48": "icons/border-48.png",
     "96": "icons/border-96.png"
@@ -20,5 +12,17 @@
       "matches": ["*://www.primevideo.com/*"],
       "js": ["prime-skip-clicker.js"]
     }
-  ]
+  ],
+  "options_ui": {
+    "page": "settings/options.html"
+  },
+  "permissions": ["storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{c761e361-8c92-4959-8f9d-7cc1f9c2e488}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
 }
